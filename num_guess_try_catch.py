@@ -24,7 +24,7 @@ import random
 def main():
     # getting the user's guess.
     # getting the guess from the user
-    user_guess = int(input("Hello my friend! Guess a number from 0-9 please! "))
+    user_guess = input("Hello my friend! Guess a number from 0-9 please! ")
 
     # the program generates a random number from 0-9.
     correct_num = random.randint(0, 9)
