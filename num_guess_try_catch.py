@@ -28,8 +28,8 @@ def main():
     # the program generates a random number from 0-9.
     correct_num = random.randint(0, 9)
 
-    # checks to see if user's guess can be casted
-    # to an integer.
+    # uses a try catch statement to see if
+    # user's guess can be casted to an integer.
     try:
         user_guess_as_integer = int(user_guess)
         if user_guess_as_integer >= 0 and user_guess_as_integer <= 9:
