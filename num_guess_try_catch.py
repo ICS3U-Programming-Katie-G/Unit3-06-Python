@@ -22,7 +22,6 @@ import random
 # guess is the correct guess, and display the result
 # back to the user.
 def main():
-    # getting the user's guess.
     # getting the guess from the user
     user_guess = input("Hello my friend! Guess a number from 0-9 please! ")
 
